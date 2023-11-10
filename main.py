@@ -50,7 +50,7 @@ def predict(text):
 
 
 st.title('Spam-Ham Classifier')
-st.image('spam.jpg')
+st.image('spam.png')
 user_in = st.text_input('Input text')
 submit = st.button('predict')
 if submit:
